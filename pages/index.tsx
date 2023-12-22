@@ -1,4 +1,4 @@
-import { Righteous } from "next/font/google";
+// import { Righteous } from "next/font/google";
 import { AnimatePresence } from "framer-motion";
 import React from "react";
 import Header from "@/components/Header";
@@ -7,10 +7,10 @@ import Slides from "@/components/Slides";
 import SlideInfo from "@/components/SlideInfo";
 import Controls from "@/components/Controls";
 
-const inter = Righteous({
-  subsets: ["latin"],
-  weight: ["400"],
-});
+// const inter = Righteous({
+//   subsets: ["latin"],
+//   weight: ["400"],
+// });
 export type Data = {
   img: string;
   title: string;
@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <main
       className={`
-       ${inter.className}
+       ${'aaa'}
         relative min-h-screen select-none overflow-hidden text-white antialiased`}
     >
       <AnimatePresence>
