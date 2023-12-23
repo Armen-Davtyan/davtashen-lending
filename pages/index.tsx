@@ -76,40 +76,40 @@ export default function Home() {
 
 const sliderData = [
   {
-    img: "/1.png",
-    location: "Switzrerland Apls",
+    img: "/davtahsen-home.jpeg",
+    location: "Բարի՜ գալուստ Դավթաշեն",
     description:
-      "The journey to Machu Picchu typically starts in the mountain city of Cusco, which was the capital city of the Inca Empire",
-    title: "SAINT ANTÖNEN",
+      "Դավթաշեն, գյուղ Հայաստանի Արագածոտնի մարզում, Թալինի տարածաշրջանում, ընկած է Թալին-Աշտարակ ավտոմայրուղու վրա, մարզկենտրոնից 40 կմ հեռավորության վրա, Արագածի հարավ-արևտմյան փեշերին։",
+    title: "Դավթաշեն",
   },
   {
-    img: "/2.png",
-    title: "The Grand Canyon",
+    img: "/davtashen-history.png",
+    title: "Բնակիչներ",
     description:
-      "The earth's geological history opens before your eyes in a mile-deep chasm",
-    location: "Arizona",
+      "Բնակիչների  նախնիները  եկել  են Արևմտյան Հայաստանի Սասուն գավառից  1919-1923թթ.:1897թ. ուներ 308,1926թ.`226 ,1939թ.`413 ,1959թ.`563 ,1870թ`620 ,1979թ.`710 հայ բնակիչ:",
+    location: "Գյուղի հիմնադրումը",
   },
   {
-    img: "/3.png",
-    title: "Masai Mara",
+    img: "/davtahsen-mngo.png",
+    title: "Պարտեզ",
     description:
-      "Wild animals in their natural environment, luxury safari lodges",
-    location: "Kenya",
+      "Առցանց դիմում հնարավոր է ուղարկել, եթե երեխան տվյալ պահի դրությամբ չի հաճախում կամ հերթագրված չէ Երևանի քաղաքապետարանի ենթակայության որևէ մանկապարտեզում:",
+    location: "Դավթաշենի Մանկապարտեզ",
   },
   {
-    img: "/4.png",
-    title: "Angkor Wat",
+    img: "/davtashen-shcool.jpeg",
+    title: "Դպրոց",
     description:
-      "A stunning ancient jungle city with hundreds of intricately constructed temples",
-    location: "Cambodia",
+      "Դավթաշեն գյուղում առաջին կրթօջախը սկսել է գործել 1928թ:Առաջին աշակերտները Հայոց մեծ եղեռնից հետո գաղթի ճանապարհին ծնված երեխաներն էին:",
+    location: "Դավթաշենի միջնակարգ դպրոց",
   },
   {
-    img: "/7.png",
-    title: "Bali",
+    img: "/our-team.png",
+    title: "Մեր մասին",
     description:
-      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
-    location: "Indonesia",
-  },
+      "At Analysed we think outside the square and utilize creativity. https://analysed.ai",
+    location: "Մեր մասին",
+  }
 ];
 
 const initData = sliderData[0];
