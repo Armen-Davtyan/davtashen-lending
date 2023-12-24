@@ -11,7 +11,7 @@ export const NavMobile = () => {
   useClickAway(ref, () => setOpen(false));
 
   return (
-    <div ref={ref} className="lg:hidden ">
+    <div ref={ref} className="gap-3 text-[11px] md:gap-10 lg:hidden ">
       <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       <AnimatePresence>
         {isOpen && (
@@ -20,7 +20,7 @@ export const NavMobile = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed left-0 shadow-4xl right-0 top-[3.5rem] p-5 pt-0 bg-neutral-950 border-b border-b-white/20"
+            className="fixed left-0 shadow-4xl right-0 top-[3.5rem] p-5 pt-0 bg-neutral-950 border-b border-b-white/20 z-[9999]"
           >
             <ul className="grid gap-2">
               {menus.map((route, idx) => {
