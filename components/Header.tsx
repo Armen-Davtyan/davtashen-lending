@@ -2,11 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { IoIosGlobe, IoMdSearch, IoMdPerson } from "react-icons/io";
 import Head from "next/head";
+import { NavMobile } from "./nav-mobile";
 
 function Header() {
   const [active, setActive] = React.useState(0);
   return (
-    <div className=" absolute mt-5 flex w-full flex-wrap items-center justify-between gap-2 px-5 text-xs font-medium uppercase opacity-90 md:px-10">
+    <div className="absolute mt-5 flex w-full flex-wrap items-center justify-between gap-2 px-5 text-xs font-medium uppercase opacity-90 md:px-10">
       <Head>
         <title>Դավթաշեն</title>
       </Head>
@@ -14,7 +15,7 @@ function Header() {
         <IoIosGlobe className=" text-xl" />
         Դավթաշեն
       </div>
-      <ul className=" flex flex-wrap items-center gap-3 text-[11px] md:gap-10">
+      <ul className="flex flex-wrap items-center gap-3 text-[11px] md:gap-10 hidden lg:flex">
         {menus.map((menu, index) => {
           return (
             <motion.li
@@ -33,6 +34,7 @@ function Header() {
           <IoMdPerson className=" text-lg" />
         </div>
       </ul>
+      <NavMobile />
     </div>
   );
 }
