@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { IoIosGlobe, IoMdSearch, IoMdPerson } from "react-icons/io";
 import Head from "next/head";
 import { NavMobile } from "./nav-mobile";
+import Image from "next/image";
 
 function Header() {
   const [active, setActive] = React.useState(0);
@@ -12,7 +13,7 @@ function Header() {
         <title>Դավթաշեն</title>
       </Head>
       <div className="  flex items-center gap-2 font-medium tracking-[4px]">
-        <IoIosGlobe className=" text-xl" />
+        <Image alt="davatahsen" src="/davtashen-logo.svg" width={32} height={32}/>
         Դավթաշեն
       </div>
       <ul className="flex flex-wrap items-center gap-3 text-[11px] md:gap-10 hidden lg:flex">
