@@ -90,6 +90,20 @@ const sliderData = [
     location: "Գյուղի հիմնադրումը",
   },
   {
+    img: "/davtashen-monument.png",
+    title: "Հուշարձան",
+    description:
+      "Երկրորդ աշխարհամարտի զոհվածների հիշատակին նվիրված հուշարձան 1978 թ.",
+    location: "Գյուղի Հուշարձանները",
+  },
+  {
+    img: "/davtashen-monument-club.png",
+    title: "Մշակույթ",
+    description:
+      "Որմնանկար 1983-84թթ նկարիչ՝ Տիգրան Թոքմաջյան",
+    location: "Գյուղի Հուշարձանները",
+  },
+  {
     img: "/davtahsen-mngo.png",
     title: "Պարտեզ",
     description:
