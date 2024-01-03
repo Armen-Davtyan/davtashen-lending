@@ -13,7 +13,7 @@ function Header() {
         <title>Դավթաշեն</title>
       </Head>
       <div className="  flex items-center gap-2 font-medium tracking-[4px]">
-        <Image alt="davatahsen" src="/davtashen-logo.svg" width={32} height={32}/>
+        <Image alt="davatahsen" src="/davtashen-logo.svg" width={24} height={24}/>
         Դավթաշեն
       </div>
       <ul className="flex flex-wrap items-center gap-3 text-[11px] md:gap-10 hidden lg:flex">
